@@ -11,5 +11,5 @@
           platforms: linux/arm64
           push: true
           tags: |
-            344887510222.dkr.ecr.eu-west-1.amazonaws.com/sre-app:latest
+            344887510222.dkr.ecr.eu-west-1.amazonaws.com/sre-app:${{ github.sha }}
 
